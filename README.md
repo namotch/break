@@ -1,3 +1,12 @@
+## Challenge4
+Explore the ‘create.tsx’ file in the repo here: https://github.com/solana-labs/break/blob/main/client/src/providers/transactions/create.tsx and jot down the various differences between the way transactions are created in the Hello World example vs the Break example.
+
+- hello_world.ts: connection = new Connection(clusterApiUrl("devnet"), "confirmed");
+    - I'm using @solana/web3.js connection
+- create.tsx: const connection = useConnection();
+    - I'm using providers/rpc useConnection
+
+
 ## Break Solana Game [![Build Status](https://github.com/solana-labs/break/actions/workflows/break_action.yml/badge.svg?branch=main)](https://github.com/solana-labs/break/actions/workflows/break_action.yml/badge.svg?branch=main)
 
 ### How it works
